@@ -40,10 +40,10 @@
 ## **Setup and Installation**
 
 1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/articl e-summarizer.git
-   cd article-summarizer
-   ```
+```bash
+git clone https://github.com/yourusername/articl e-summarizer.git
+cd article-summarizer
+```
 
 2.**Install Dependencies**:
 ``` bash
@@ -51,9 +51,9 @@ pip install -r requirements.txt
 ```
 
 3.**get the api key**:
-
+```
   goto https://aistudio.google.com/app/apikey and get your api key
-  
+  ```
 
 4.**Configure API Keys in .env file**
 ```
