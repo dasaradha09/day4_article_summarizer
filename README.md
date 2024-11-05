@@ -3,6 +3,10 @@
 **Article Summarizer** is a web application that provides concise and clear summaries of articles sourced from Google. The app allows users to customize their summarization experience by selecting the type of summary, length, and more, making it easier to grasp key information quickly.
 
 ---
+## **Demo**
+
+
+-------------------------
 
 ## **Features**
 
@@ -46,7 +50,8 @@
 pip install -r requirements.txt
 ```
 
-3.**get the api key**
+3.**get the api key**:
+
   goto https://aistudio.google.com/app/apikey and get your api key
   
 
@@ -68,21 +73,21 @@ streamlit run article_summarizer.py
 ## **How to Use**
 
 1. **Enter Article URL**: Paste the link of the article you want to summarize.
-2. 
-3. **Select Summary Type**: Choose the type of summary (point-based or paragraph) and adjust the summary length using the slider.
-4. 
-5. **Adjust summary length** : choose the summary length length in words by adjusting the slider.
-6. 
-7. **Generate Summary**: Click the generate summary button. The app will extract text from the article and generate the summary within a few seconds.
-8. 
-9. **Download Summary**: Click the download button to save the summary as a PDF.
+
+2. **Select Summary Type**: Choose the type of summary (point-based or paragraph) and adjust the summary length using the slider.
+
+3. **Adjust summary length** : choose the summary length length in words by adjusting the slider.
+
+4. **Generate Summary**: Click the generate summary button. The app will extract text from the article and generate the summary within a few seconds.
+
+5. **Download Summary**: Click the download button to save the summary as a PDF.
 
 ---
 
 ## **Future Enhancements**
 
 - **Summary Translation**: Implement translation features to provide summaries in multiple languages.
-- 
+ 
 - **Audio Summary**: Generate audio files of the summaries for auditory consumption.
 
  ------------------
