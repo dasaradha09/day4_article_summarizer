@@ -55,8 +55,7 @@ summary_length=st.slider("select summary length in words",min_value=100, max_val
 
 prompt=f"""you need to provide summarize the
 article transcript and return important points as
-{summary_type} in {summary_length} words make sure that all the characters you generated are supported for Arial 
-font to unicode.if possible bold and markdown the important words and sentences . here is my transcript:"""
+{summary_type} in {summary_length} words.if possible bold the important words and sentences . here is my transcript:"""
 
 a=st.button("Generate ")
 if a:
