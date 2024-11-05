@@ -28,11 +28,11 @@
 ## **Tech Stack**
 
 - **Streamlit**: Utilized for creating a user-friendly, interactive interface.
-- 
+ 
 - **Google Gemini API**: The language model for generating summaries from extracted content.
-- 
+ 
 - **FPDF**: A library for creating PDF files for summary downloads.
-- 
+ 
 - **dotenv**: Used for managing environment variables securely.
 
 ---
