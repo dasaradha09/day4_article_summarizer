@@ -1,0 +1,6 @@
+newspaper3k
+streamlit
+google-generativeai
+python-dotenv
+fpdf
+gunicorn
