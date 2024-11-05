@@ -51,9 +51,9 @@ pip install -r requirements.txt
 ```
 
 3.**get the api key**:
-
+```
   goto https://aistudio.google.com/app/apikey and get your api key
-  
+  ```
 
 4.**Configure API Keys in .env file**
 ```
