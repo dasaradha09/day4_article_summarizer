@@ -3,5 +3,4 @@ streamlit
 google-generativeai
 python-dotenv
 fpdf
-gunicorn
 lxml[html_clean]
