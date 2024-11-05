@@ -3,7 +3,18 @@
 **Article Summarizer** is a web application that provides concise and clear summaries of articles sourced from Google. The app allows users to customize their summarization experience by selecting the type of summary, length, and more, making it easier to grasp key information quickly.
 
 ---
-## **Demo**
+
+## **Live Link:**
+
+https://day4-article-summarizer.onrender.com
+
+---
+## **Demo video :**
+
+
+
+https://github.com/user-attachments/assets/4a970481-fcfe-42b5-a2bc-919eeaa1d80e
+
 
 
 -------------------------
