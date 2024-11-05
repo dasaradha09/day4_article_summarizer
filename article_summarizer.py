@@ -53,8 +53,8 @@ article_link=st.text_input("enter the article link")
 summary_type=st.selectbox("select summary type",["paragraph summary","bullet point summary"])
 summary_length=st.slider("select summary length in words",min_value=100, max_value=1000)
 
-prompt=f"""you need to provide summarize the
-article transcript and return important points as
+prompt=f"""Asuume you are the best text summarizer over 10 years experience .you need to provide summarize the
+article transcript and return important article content as
 {summary_type} in {summary_length} words.if possible bold the important words and sentences . here is my transcript:"""
 
 a=st.button("Generate ")
@@ -64,26 +64,10 @@ if a:
     summary=summarize(transcript,prompt)
     st.write(summary)
     pdf_file = create_pdf(summary)
+    summary.replace("–","")
     st.download_button(
         label="Download PDF",
         data=pdf_file,
         file_name="transcript.pdf",
         mime="application/pdf"
     )
-
-    
-    
-
-
-
-    
-
-
-    
-
-#"–"
-
-
-    
-    
-
