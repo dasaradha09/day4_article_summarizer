@@ -73,20 +73,7 @@ if a:
 
     
     
-# target_language=st.selectbox('select target language',languages.keys(), key="target_language_selectbox")
-# b=st.button('translate')
-# if b:
-#     translated_text=detectAndtranslate(summary,target_language)
-#     st.write(translated_text)
-    
-# if st.button("download"):
-#     pdf_file = create_pdf(summary)
-#     st.download_button(
-#         label="Download PDF",
-#         data=pdf_file,
-#         file_name="transcript.pdf",
-#         mime="application/pdf"
-#     )
+
 
 
     
