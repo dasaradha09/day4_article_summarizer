@@ -29,7 +29,6 @@ def create_pdf(transcript):
     pdf = FPDF()
     pdf.add_page()
     pdf.set_font("Arial", size=12)
-    
     # Add the transcript text to the PDF
     pdf.multi_cell(0, 10, transcript)
     
@@ -63,6 +62,7 @@ if a:
     st.markdown("##summary")
     summary=summarize(transcript,prompt)
     st.write(summary)
+    summary = summary.encode('latin-1', 'replace').decode('latin-1')
     pdf_file = create_pdf(summary)
     summary.replace("–","")
     st.download_button(
